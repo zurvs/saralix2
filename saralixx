@@ -1,6 +1,6 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LuCars32/vvsxox-priv-ui/refs/heads/main/vvsxox%20ui", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zurvs/saralixui//main/uisaralix", true))()
 
-local window = library:AddWindow("VVSXOX â PRIVATE KILLING ", {
+local window = library:AddWindow("Saralix â private access ", {
 main_color = Color3.fromRGB(0, 0, 0),
 min_size = Vector2.new(500, 1000),
 can_resize = false,
