@@ -1332,8 +1332,8 @@ tabs.other:AddButton("Equip Rep Pets", function()
 end)
 
 tabs.info:Show()
-tabs.info:AddLabel("idk).TextSize = 17
-tabs.info:AddLabel("idk").TextSize = 17
+tabs.info:AddLabel("Made with ♥️ by Henne and Muki").TextSize = 17
+tabs.info:AddLabel("Any issue? Ping @xyzhenrik_ or @mukimagdich on Discord").TextSize = 17
 tabs.info:AddLabel("Official Discord: discord.gg/9eFf93Kg8D").TextSize = 17
 tabs.info:AddButton("Copy Invite", function()
     tabs.info.link = "https://discord.gg/9eFf93Kg8D"
