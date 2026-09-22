@@ -53,7 +53,7 @@ deleteBodyMovementScript()
 services.muscleEvent = lp.player:WaitForChild("muscleEvent")
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zurvs/saralixui//main/uisaralix", true))()
-local Window = library:AddWindow("Saralix | Fast Farming - Hey, " .. lp.displayname .. "!", {
+local window = library:AddWindow("Saralix | Fast Farming - Hey, " .. lp.displayname .. "!", {
     main_color = Color3.fromRGB(138, 0, 0),
     min_size = Vector2.new(500, 500),
     can_resize = false
